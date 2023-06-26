@@ -1,0 +1,658 @@
+/* Default styling */
+body {
+    color: rgb(245, 239, 239);
+    z-index: 3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .pattern {
+    height: 100%;
+    width: 100%;
+  }
+  
+
+  .pattern {
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(rgba(61, 61,61, 1), transparent 1px );
+    background-size: 25px 25px;
+    background-color: #161616;
+  }
+
+
+  /* Navbar Section*/
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 1.5rem 0;
+  }
+  .navbar-brand {
+    color:#8a8a8a;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    transition: 0.5s;
+  }
+  .navbar-brand:hover {
+    color: white
+  }
+  .navitems a {
+    color:#8a8a8a;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    margin: 0 1.5rem;
+  }
+  
+  .navbar-toggler {
+    background-color:#8a8a8a;
+  }
+  .navbar-nav {
+    font-size: 1.2rem;
+  }
+  .navbar-nav .nav-item {
+    padding-left: 0;
+  }
+  .navbar-nav .nav-link {
+    color:#8a8a8a;
+    padding: 0.5rem 1rem;
+    transition: 0.5s;
+  }
+  .navbar-nav .nav-link:hover {
+    color:white;
+    background-color: transparent;
+  }
+  
+  
+  .title {
+    place-content: start;
+    flex-grow: 2;
+  }
+  
+  .aboutText hr {
+    margin-right: 20px;
+  }
+  .flex-item {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 2%;
+    padding: 10%;
+    color: #8a8a8a;
+    
+  }
+
+
+ 
+
+  .about-items.info {
+    flex-grow: 3;
+    text-align: justify;
+    border-radius: 15px;
+    padding: 20px 20px 20px 20px;
+    color: #8a8a8a;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: lighter;
+  }
+
+  @media (max-width: 768px) {
+    /* Set font-size to 0.9rem for screens smaller than 768px */
+    .about-items.info {
+      font-size: 1rem;
+      text-align: justify;
+      padding: 0%;
+      margin: 0%;
+    
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    /* CSS styles go here */
+    .about-items.info {
+      font-size: 1rem;
+      text-align: justify;
+      padding: 0%;
+      margin: 0%;
+    
+    }
+  }
+  
+
+ 
+  @media (max-width: 768px) {
+    /* Set font-size to 0.9rem for screens smaller than 768px */
+    .flex-item.about{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 10%;
+      padding: 0%;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    /* CSS styles go here */
+    .flex-item.about{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 10%;
+      padding: 0%;
+    }
+  }
+
+  .Aboutbio {
+    transition: all 0.3s ease;
+    opacity: 0.8;
+  }
+
+
+  .projecttitle, .edTtile {
+    flex-grow: 2;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .aboutText, .edTitle, .projecttitle, .skillsTtile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 2;
+    padding-bottom: 25px;
+  }
+
+
+  @media (max-width: 768px) {
+    /* Set font-size to 0.9rem for screens smaller than 768px */
+    .aboutText {
+      flex-direction: column-reverse;
+      justify-self: center;
+      align-items: center;
+      text-align: center;
+
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    /* CSS styles go here */
+    .aboutText {
+      flex-direction: column-reverse;
+      justify-self: center;
+      align-items: center;
+      text-align: center;
+
+    }
+  }
+
+ @media (max-width:768px){
+    .projecttitle, .edTitle{
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+        text-align: center;
+    }
+
+ }
+
+ @media screen and (min-width: 768px) and (max-width: 991px) {
+  /* CSS styles go here */
+  .projecttitle, .edTitle{
+      flex-direction: column;
+      justify-self: center;
+      align-items: center;
+      text-align: center;
+  }
+}
+
+
+
+
+
+
+
+  @media (max-width: 768px) {
+    /* Set font-size to 0.9rem for screens smaller than 768px */
+    .about-items.text2 {
+      text-align: center;
+      font-size: 1rem;
+      flex-grow: 2;
+      margin-left: 20%;
+      margin-right: 20%;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    /* CSS styles go here */
+    .about-items.text2 {
+      text-align: center;
+      font-size: 1rem;
+      flex-grow: 2;
+      margin-left: 20%;
+      margin-right: 20%;
+    }
+  }
+
+
+
+  
+.projects {
+    display: flex;
+    flex-direction: row;
+    /* TWO ITEMS IN A ROW */  
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 5%;
+  
+  }
+
+  .projects-items a {
+    text-decoration: none;
+    color: #8a8a8a;
+}
+a {
+  color:#8a8a8a; /* set the link color */
+  text-decoration: none; /* remove the underline */
+}
+
+a:hover{
+  color:white; /* set the link color */
+  text-decoration: none;
+}
+
+.projectsSe{
+    display: flex;
+    flex-direction: column;
+    /* TWO ITEMS IN A ROW */  
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 5%;
+    color: #8a8a8a;
+}
+
+  
+@media (max-width:768px) {
+  .projects {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+
+  } 
+}
+  
+
+
+  .projects div {
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 1px;
+  }
+  .projects-items {
+    display: flex;
+    flex-direction: column;
+    background-color:#1A1A1A; 
+    
+    opacity: 1;
+    font-weight:lighter;
+    transition: all 0.3s ease;
+    border: 1px solid  #242424;
+
+
+  }
+
+ 
+  .project-info {
+    padding-top:20%;
+    padding-left: 10%;
+  }
+  .projectContent {
+    display: flex;
+    flex-direction: column;
+    padding-left:10%;
+    padding-right:20px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    text-align: justify;
+    justify-content: flex-end;
+
+  }
+  .projectname {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    text-align: left;
+    font-weight: lighter;
+
+  }
+  
+  .projects-items:hover, .projects-items:focus {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+
+  @media (max-width: 768px) {
+    /* Set font-size to 0.9rem for screens smaller than 768px */
+    .flex-item.skils{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 10%;
+      padding: 0%;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    /* CSS styles go here */
+    .flex-item.skils{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 10%;
+      padding: 0%;
+    }
+  }
+
+  /* 4 icons in a skillsinfo */
+
+  .skillsinfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin-top: 3%;
+  }
+  
+  .skills-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    justify-content: space-between;
+
+  }
+  
+  .skills-items img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .skills-items p {
+    font-weight: lighter;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 200;
+
+  }
+  
+  @media (max-width: 767px) {
+    .skills-items {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    }
+
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    /* CSS styles go here */
+    .skills-items {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    }
+  }
+  
+  .contact-items:hover {
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out;
+  }
+
+  /* Education Section */
+  
+  /* Styling the Education section */
+   
+  .education-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5%;
+  }
+  
+  .education-item {
+    width: 300px;
+    margin-bottom: 30px;
+    background-color: #1A1A1A;
+    padding: 20px;
+    border: 1px solid  #242424;
+    color: #8a8a8a;
+
+  }
+
+  @media (max-width:768px){
+    .education-item {
+      width: 200px;
+      text-align: center;
+      margin-bottom: 30px;
+      background-color: #1A1A1A;
+      padding: 20px;
+      margin-left: 10%;
+      margin-right: 10%;
+      color: #8a8a8a;
+    }
+
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    /* CSS styles go here */
+    .education-item {
+      width: 200px;
+      text-align: center;
+      margin-bottom: 30px;
+      background-color: #1A1A1A;
+      padding: 20px;
+      margin-left: 10%;
+      margin-right: 10%;
+      color: #8a8a8a;
+    }
+  }
+  
+  .education-year {
+    margin-bottom: 10px;
+    color: #8a8a8a;
+  }
+  
+  .education-year p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .education-info {
+    color: #8a8a8a;
+  }
+  
+  .education-info h4 {
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 0 0 5px;
+  }
+  
+  .education-info p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+
+
+  
+/*  Get in touch section */
+
+  .contactText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 10%;
+    font-size: 1.1rem;
+    font-weight: lighter;
+  }
+  .contact-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  .contact-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  .contact-icon {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+  }
+  .contact-icon.github {
+    height: 120px;
+    width: 120px;
+    margin-bottom: 10px;
+  }
+  .contact-name {
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+  }
+  .contact-form {
+    box-shadow: 0px 4px 10px rgba(10, 25, 47, 0.3);
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 40px;
+    
+  }
+
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .form-group label {
+    display: block;
+    font-size: 1.125rem;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  .form-group input, .form-group textarea {
+    
+    box-shadow: 0px 2px 5px rgba(10, 25, 47, 0.1);
+    font-size: 1rem;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .form-group input, .form-group textarea  {
+    width: 300px; /* or any other suitable value */
+  }
+  
+  .form-group textarea {
+    resize: none;
+  }
+
+
+  
+
+
+  input, textarea {
+    margin: 5px;
+    background-color: #8a8a8a;
+
+  }
+  footer {
+    color:#8a8a8a;
+    padding: 20px;
+    text-align: center;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .rights {
+    margin: 0;
+  }
+  /* message box class form control bigger*/
+
+  
+  .nameText {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin: 0;
+    letter-spacing: 2px;
+    color: #fff;
+  }
+
+  h1 {
+    font-size: 3.75rem;
+  }
+  h2 {
+    font-size: 3.125rem;
+  }
+  /* */
+
+
+.cvphoto {
+  margin-bottom: 5%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0px 0px 3px rgba(255, 255, 255, 0.5);
+
+}
+
+.bio {
+    text-align: center;
+  }
+
+  .intro {  
+    font-size: 3rem;
+    font-weight:lighter;
+    /* fedding out */
+
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    text-align: center;
+    color: white
+  }
+  
+/* media query for intro */
+
+@media (max-width:768px){
+  .intro{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* CSS styles go here */
+  .intro{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    text-align: center;
+  }
+}
+
+  
